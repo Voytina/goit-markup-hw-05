@@ -465,7 +465,7 @@
           <p class="footer-title-form">Subscribe</p>
 
           <form class="form-footer">
-            <label>
+            <label class="footer-label">
               <input
                 type="email"
                 name="email"
@@ -488,22 +488,22 @@
     <div class="backdrop is-open">
       <div class="modal">
         <button type="button" class="button-close">
-          <svg width="8" height="8px">
+          <svg width="8" height="8" class="svg-close">
             <use href="./images/icons.svg#icon-close"></use>
           </svg>
         </button>
         <p class="title-modal">Leave your contacts and we will call you back</p>
         <form>
           <div class="modal-box">
-            <label for="name" class="modal-label">Name</label>
+            <label for="user-name" class="modal-label">Name</label>
             <div class="input-wrapp">
               <input
                 type="text"
                 name="user-name"
                 class="modal-input"
-                id="name"
+                id="user-name"
               />
-              <svg width="18" height="18" class="input-svg">
+              <svg width="18" height="24" class="input-svg">
                 <use href="./images/icons.svg#icon-person"></use>
               </svg>
             </div>
@@ -526,24 +526,25 @@
               </svg>
             </div>
           </div>
-          <div class="modal-box">
-            <label for="user-text" class="modal-label">Comment</label>
+          <div class="modal-box-textarea">
+            <label for="user-comment" class="modal-label">Comment</label>
             <textarea
-              name="user-text"
-              id="user-text"
+              name="user-comment"
+              id="user-comment"
               class="modal-textarea"
               placeholder="Text input"
             ></textarea>
           </div>
-          <div class="modal-box">
+          <div class="modal-box-checkbox">
             <input
               type="checkbox"
-              name="terms"
-              id="terms"
+              name="user-privacy"
+              id="user-privacy"
               class="style-chekbox visually-hidden"
               required
+              value="true"
             />
-            <label for="terms" class="check-text">
+            <label for="user-privacy" class="check-text">
               <span class="check-text-box">
                 <svg class="check-text-icon" width="10" height="8">
                   <use href="./images/icons.svg#icon-true"></use>
@@ -555,9 +556,8 @@
               ></label
             >
           </div>
-          <div class="box-button-form">
-            <button class="button-form">Send</button>
-          </div>
+
+          <button type="submit" class="button-form">Send</button>
         </form>
       </div>
     </div>
