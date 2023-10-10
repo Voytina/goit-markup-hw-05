@@ -862,13 +862,14 @@ ol {
     margin-bottom: 24px;
 }
 .check-text{
-    display: flex;
+    
     font-size: 12px;
     font-weight: 400;
     line-height: 1.17;
     letter-spacing: 0.04em;
     color: #8E8F99;
     align-items: center;
+    display: flex;
          
 }
 
@@ -880,7 +881,7 @@ ol {
     width: 16px;
     height: 16px;
     border-radius:2px;
-    border: 1px solid rgba(46, 47, 66, 0.4);
+    border: 1px solid rgba(17, 17, 19, 0.4);
     
     margin-right: 8px;
 
