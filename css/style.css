@@ -865,8 +865,8 @@ ol {
     display: flex;
     font-size: 12px;
     font-weight: 400;
-    line-height: 14px;
-    letter-spacing: 0.48px; 
+    line-height: 1.17;
+    letter-spacing: 0.04em;
     color: #8E8F99;
     align-items: center;
          
@@ -879,7 +879,6 @@ ol {
     height: 16px;
     border-radius:2px;
     border: 1px solid rgba(46, 47, 66, 0.4);
-    display: flex;
     justify-content: center;
     align-items: center;
     margin-right: 8px;
